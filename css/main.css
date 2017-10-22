@@ -1,0 +1,207 @@
+ * {
+   margin: 0;
+   padding: 0;
+ }
+
+  /* Título */
+  h1 {
+    color: #595556;
+    font-family: monospace;
+    font-size: 22px;
+    margin: 10px 20px;
+  }
+
+  /* Línea separadora */
+  hr {
+    border: 2px solid #595a5b;
+    margin-left: 20px;
+    padding: 0;
+    width: 80px;
+  }
+
+  /* Contenedor principal */
+  .container {
+    /*outline: 1px solid red;*/
+    bottom: 0;
+    height: 539px;
+    left: 0;
+    margin: auto;
+    overflow: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 728px;
+  }
+
+  /* Foto coder 1 */
+  .student-1 {
+    background: url('../assets/images/css_sprites.png') -0 -0;
+    box-sizing: border-box;
+    float: left;
+    margin: 20px;
+    position: relative;
+    width: 200px; height: 200px;
+  }
+
+  /*  Estilo para el nombre de cada una*/
+  .student-1 p a {
+    /*outline: 1px solid blue;*/
+    bottom: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: monospace;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    position: absolute;
+    text-align: right;
+    text-decoration: none;
+    width: 100%;
+  }
+
+  /* Foto coder 2 */
+  .student-2 {
+    background: url('../assets/images/css_sprites.png') -200px -0;
+    box-sizing: border-box;
+    float: left;
+    height: 200px;
+    margin: 20px;
+    position: relative;
+    width: 200px;
+  }
+
+  .student-2 p a {
+    /*outline: 1px solid blue;*/
+    bottom: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: monospace;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    position: absolute;
+    text-align: right;
+    text-decoration: none;
+    width: 100%;
+  }
+
+  /* Foto coder 3 */
+  .student-3 {
+    background: url('../assets/images/css_sprites.png') -0 -200px;
+    box-sizing: border-box;
+    float: left;
+    height: 200px;
+    margin: 20px;
+    position: relative;
+    width: 200px;
+  }
+
+  .student-3 p a {
+    /*outline: 1px solid blue;*/
+    bottom: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: monospace;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    position: absolute;
+    text-align: right;
+    text-decoration: none;
+    width: 100%;
+  }
+
+  /* Foto coder 4 */
+  .student-4 {
+    background: url('../assets/images/css_sprites.png') -200px -200px;
+    box-sizing: border-box;
+    float: left;
+    height: 200px;
+    margin: 20px;
+    position: relative;
+    width: 200px;
+  }
+
+  .student-4 p a {
+    /*outline: 1px solid blue;*/
+    bottom: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: monospace;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    position: absolute;
+    text-align: right;
+    text-decoration: none;
+    width: 100%;
+  }
+
+  /* Foto coder 5 */
+  .student-5 {
+    background: url('../assets/images/css_sprites.png') -400px -0;
+    box-sizing: border-box;
+    float: left;
+    height: 200px;
+    margin: 20px;
+    position: relative;
+    width: 200px;
+  }
+
+  .student-5 p a {
+    /*outline: 1px solid blue;*/
+    bottom: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: monospace;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    position: absolute;
+    text-align: right;
+    text-decoration: none;
+    width: 100%;
+  }
+
+  /* Foto coder 6*/
+  .student-6 {
+    background: url('../assets/images/css_sprites.png') -400px -200px;
+    box-sizing: border-box;
+    float: left;
+    height: 200px;
+    margin: 20px;
+    position: relative;
+    width: 200px;
+  }
+
+  .student-6 p a {
+    /*outline: 1px solid blue;*/
+    bottom: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: monospace;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    position: absolute;
+    text-align: right;
+    text-decoration: none;
+    width: 100%;
+  }
+
+  /* Efecto sobre el nombre */
+  a:hover {
+   background:rgba(28, 28, 28, 0.5);
+  }
